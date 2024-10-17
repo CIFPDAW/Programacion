@@ -1,0 +1,14 @@
+C:\Users\fdari\Documents\Programacion\DanielDarias\obj\Debug\net8.0\DanielDarias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fdari\Documents\Programacion\DanielDarias\obj\Debug\net8.0\DanielDarias.AssemblyInfoInputs.cache
+C:\Users\fdari\Documents\Programacion\DanielDarias\obj\Debug\net8.0\DanielDarias.AssemblyInfo.cs
+C:\Users\fdari\Documents\Programacion\DanielDarias\obj\Debug\net8.0\DanielDarias.csproj.CoreCompileInputs.cache
+C:\Users\fdari\Documents\Programacion\DanielDarias\bin\Debug\net8.0\DanielDarias.exe
+C:\Users\fdari\Documents\Programacion\DanielDarias\bin\Debug\net8.0\DanielDarias.deps.json
+C:\Users\fdari\Documents\Programacion\DanielDarias\bin\Debug\net8.0\DanielDarias.runtimeconfig.json
+C:\Users\fdari\Documents\Programacion\DanielDarias\bin\Debug\net8.0\DanielDarias.dll
+C:\Users\fdari\Documents\Programacion\DanielDarias\bin\Debug\net8.0\DanielDarias.pdb
+C:\Users\fdari\Documents\Programacion\DanielDarias\obj\Debug\net8.0\DanielDarias.dll
+C:\Users\fdari\Documents\Programacion\DanielDarias\obj\Debug\net8.0\refint\DanielDarias.dll
+C:\Users\fdari\Documents\Programacion\DanielDarias\obj\Debug\net8.0\DanielDarias.pdb
+C:\Users\fdari\Documents\Programacion\DanielDarias\obj\Debug\net8.0\DanielDarias.genruntimeconfig.cache
+C:\Users\fdari\Documents\Programacion\DanielDarias\obj\Debug\net8.0\ref\DanielDarias.dll
