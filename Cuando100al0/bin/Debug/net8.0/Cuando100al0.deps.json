@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Cuando100al0/1.0.0": {
+        "runtime": {
+          "Cuando100al0.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cuando100al0/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

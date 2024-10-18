@@ -1,0 +1,15 @@
+C:\Users\fdari\Documents\Programacion\Cuando100al0\bin\Debug\net8.0\Cuando100al0.exe
+C:\Users\fdari\Documents\Programacion\Cuando100al0\bin\Debug\net8.0\Cuando100al0.deps.json
+C:\Users\fdari\Documents\Programacion\Cuando100al0\bin\Debug\net8.0\Cuando100al0.runtimeconfig.json
+C:\Users\fdari\Documents\Programacion\Cuando100al0\bin\Debug\net8.0\Cuando100al0.dll
+C:\Users\fdari\Documents\Programacion\Cuando100al0\bin\Debug\net8.0\Cuando100al0.pdb
+C:\Users\fdari\Documents\Programacion\Cuando100al0\obj\Debug\net8.0\Cuando100al0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fdari\Documents\Programacion\Cuando100al0\obj\Debug\net8.0\Cuando100al0.AssemblyInfoInputs.cache
+C:\Users\fdari\Documents\Programacion\Cuando100al0\obj\Debug\net8.0\Cuando100al0.AssemblyInfo.cs
+C:\Users\fdari\Documents\Programacion\Cuando100al0\obj\Debug\net8.0\Cuando100al0.csproj.CoreCompileInputs.cache
+C:\Users\fdari\Documents\Programacion\Cuando100al0\obj\Debug\net8.0\Cuando100al0.sourcelink.json
+C:\Users\fdari\Documents\Programacion\Cuando100al0\obj\Debug\net8.0\Cuando100al0.dll
+C:\Users\fdari\Documents\Programacion\Cuando100al0\obj\Debug\net8.0\refint\Cuando100al0.dll
+C:\Users\fdari\Documents\Programacion\Cuando100al0\obj\Debug\net8.0\Cuando100al0.pdb
+C:\Users\fdari\Documents\Programacion\Cuando100al0\obj\Debug\net8.0\Cuando100al0.genruntimeconfig.cache
+C:\Users\fdari\Documents\Programacion\Cuando100al0\obj\Debug\net8.0\ref\Cuando100al0.dll

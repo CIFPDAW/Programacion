@@ -1,0 +1,15 @@
+C:\Users\fdari\Documents\Programacion\ContarMinusculas\obj\Debug\net8.0\ContarMinusculas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fdari\Documents\Programacion\ContarMinusculas\obj\Debug\net8.0\ContarMinusculas.AssemblyInfoInputs.cache
+C:\Users\fdari\Documents\Programacion\ContarMinusculas\obj\Debug\net8.0\ContarMinusculas.AssemblyInfo.cs
+C:\Users\fdari\Documents\Programacion\ContarMinusculas\obj\Debug\net8.0\ContarMinusculas.csproj.CoreCompileInputs.cache
+C:\Users\fdari\Documents\Programacion\ContarMinusculas\obj\Debug\net8.0\ContarMinusculas.sourcelink.json
+C:\Users\fdari\Documents\Programacion\ContarMinusculas\bin\Debug\net8.0\ContarMinusculas.exe
+C:\Users\fdari\Documents\Programacion\ContarMinusculas\bin\Debug\net8.0\ContarMinusculas.deps.json
+C:\Users\fdari\Documents\Programacion\ContarMinusculas\bin\Debug\net8.0\ContarMinusculas.runtimeconfig.json
+C:\Users\fdari\Documents\Programacion\ContarMinusculas\bin\Debug\net8.0\ContarMinusculas.dll
+C:\Users\fdari\Documents\Programacion\ContarMinusculas\bin\Debug\net8.0\ContarMinusculas.pdb
+C:\Users\fdari\Documents\Programacion\ContarMinusculas\obj\Debug\net8.0\ContarMinusculas.dll
+C:\Users\fdari\Documents\Programacion\ContarMinusculas\obj\Debug\net8.0\refint\ContarMinusculas.dll
+C:\Users\fdari\Documents\Programacion\ContarMinusculas\obj\Debug\net8.0\ContarMinusculas.pdb
+C:\Users\fdari\Documents\Programacion\ContarMinusculas\obj\Debug\net8.0\ContarMinusculas.genruntimeconfig.cache
+C:\Users\fdari\Documents\Programacion\ContarMinusculas\obj\Debug\net8.0\ref\ContarMinusculas.dll
