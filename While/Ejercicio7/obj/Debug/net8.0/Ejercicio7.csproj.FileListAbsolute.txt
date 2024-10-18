@@ -1,0 +1,15 @@
+C:\Users\fdari\Documents\Programacion\While\Ejercicio7\bin\Debug\net8.0\Ejercicio7.exe
+C:\Users\fdari\Documents\Programacion\While\Ejercicio7\bin\Debug\net8.0\Ejercicio7.deps.json
+C:\Users\fdari\Documents\Programacion\While\Ejercicio7\bin\Debug\net8.0\Ejercicio7.runtimeconfig.json
+C:\Users\fdari\Documents\Programacion\While\Ejercicio7\bin\Debug\net8.0\Ejercicio7.dll
+C:\Users\fdari\Documents\Programacion\While\Ejercicio7\bin\Debug\net8.0\Ejercicio7.pdb
+C:\Users\fdari\Documents\Programacion\While\Ejercicio7\obj\Debug\net8.0\Ejercicio7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fdari\Documents\Programacion\While\Ejercicio7\obj\Debug\net8.0\Ejercicio7.AssemblyInfoInputs.cache
+C:\Users\fdari\Documents\Programacion\While\Ejercicio7\obj\Debug\net8.0\Ejercicio7.AssemblyInfo.cs
+C:\Users\fdari\Documents\Programacion\While\Ejercicio7\obj\Debug\net8.0\Ejercicio7.csproj.CoreCompileInputs.cache
+C:\Users\fdari\Documents\Programacion\While\Ejercicio7\obj\Debug\net8.0\Ejercicio7.sourcelink.json
+C:\Users\fdari\Documents\Programacion\While\Ejercicio7\obj\Debug\net8.0\Ejercicio7.dll
+C:\Users\fdari\Documents\Programacion\While\Ejercicio7\obj\Debug\net8.0\refint\Ejercicio7.dll
+C:\Users\fdari\Documents\Programacion\While\Ejercicio7\obj\Debug\net8.0\Ejercicio7.pdb
+C:\Users\fdari\Documents\Programacion\While\Ejercicio7\obj\Debug\net8.0\Ejercicio7.genruntimeconfig.cache
+C:\Users\fdari\Documents\Programacion\While\Ejercicio7\obj\Debug\net8.0\ref\Ejercicio7.dll
