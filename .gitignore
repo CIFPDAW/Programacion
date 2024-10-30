@@ -1,14 +1,6 @@
-# Ignorar todos los archivos por defecto
-*
-
-# Permitir archivos .cs
-!*.cs
-
-# Permitir el archivo .gitignore
-!.gitignore
-
-# Permitir directorios vacíos para mantener la estructura
-!*/
-
-# Ignorar cualquier archivo en carpetas llamadas net8.0
-**/net8.0/
+*.json
+*.props
+*.targets
+*.cache
+*.editorconfig
+**/bin/*
