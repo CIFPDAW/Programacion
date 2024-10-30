@@ -4,8 +4,11 @@
 # Permitir archivos .cs
 !*.cs
 
-# Permitir la carpeta .gitignore
+# Permitir el archivo .gitignore
 !.gitignore
 
-# Si necesitas permitir directorios para mantener la estructura
+# Permitir directorios vacíos para mantener la estructura
 !*/
+
+# Ignorar cualquier archivo en carpetas llamadas net8.0
+**/net8.0/
