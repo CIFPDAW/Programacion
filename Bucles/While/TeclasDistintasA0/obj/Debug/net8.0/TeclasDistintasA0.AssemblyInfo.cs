@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TeclasDistintasA0")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b0edb048b3b1d311944601d2ee592ff8f86f3a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ae266a542b36005af4604d393e0f45b3636f7b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("TeclasDistintasA0")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TeclasDistintasA0")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
