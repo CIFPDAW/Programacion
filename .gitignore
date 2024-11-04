@@ -4,3 +4,10 @@
 *.cache
 *.editorconfig
 **/bin/*
+*.dll
+*.pdb
+*.suo
+*.user
+*.exe
+*.txt
+**/obj/Debug/net8.0/
