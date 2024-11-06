@@ -1,4 +1,4 @@
-// (2) Mostrar por pantalla los números del 1 al 100, colocando 10 números en cada fila a mostrar.
+﻿// (2) Mostrar por pantalla los números del 1 al 100, colocando 10 números en cada fila a mostrar.
 using System;
 
 public class Program
