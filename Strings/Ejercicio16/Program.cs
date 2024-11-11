@@ -1,6 +1,5 @@
 ﻿/* (16) Un palíndromo es una palabra que se lee igual hacia adelante que hacia atrás. 
 Dada una cadena de caracteres por teclado, mostrar si la cadena es un palíndromo o no. */
-
 using System;
 
 public class Program
@@ -16,16 +15,17 @@ public class Program
             int i = 0;
             int j = cadena.Length - 1;
             bool esPalindromo = true;
-            while (i < j)
+
+            while (i < j && esPalindromo)
             {
                 if (cadena[i] != cadena[j])
                 {
                     esPalindromo = false;
-                    break;
                 }
                 i++;
                 j--;
             }
+
             if (esPalindromo)
             {
                 Console.WriteLine("La cadena es un palíndromo.");

@@ -16,12 +16,11 @@ public class Program
             int i = 0;
             int j = numero.Length - 1;
             bool esCapicuo = true;
-            while (i < j)
+            while (i < j && esCapicuo)
             {
                 if (numero[i] != numero[j])
                 {
                     esCapicuo = false;
-                    break;
                 }
                 i++;
                 j--;
