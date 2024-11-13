@@ -12,9 +12,9 @@ public class Program
         int comaPos = -1;
 
         // Encontrar la posición de la coma
-        for (int i = 0; i < apellido_nombre.Length; i++)
+        for (int i = 0; i < apellido_nombre.Length && comaPos == -1; i++)
         {
-            if (comaPos == -1 && apellido_nombre[i] == ',')
+            if (apellido_nombre[i] == ',')
             {
                 comaPos = i;
             }
