@@ -11,13 +11,13 @@ public class Program
         Console.Write("Introduce tu segunda cadena: ");
         palabra = Console.ReadLine();
 
-        bool encontrada = false;
+        bool encontrada;
 
         int frase_longitud = frase.Length;
         int palabra_longitud = palabra.Length;
 
-        // Recorre frase hasta donde podría caber palabra
-        for (int i = 0; i <= frase_longitud - palabra_longitud && !encontrada; i++)
+        int i = 0;
+        do
         {
             int j = 0;
 
@@ -27,10 +27,11 @@ public class Program
                 j++;
             }
 
+            i++;
+
             // Si j llega al final de palabra, significa que todas las letras coincidieron
             encontrada = (j == palabra_longitud);
-        }
-
+        } while (i <= frase_longitud - palabra_longitud && !encontrada);
 
         if (encontrada)
         {
