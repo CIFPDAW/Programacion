@@ -13,7 +13,6 @@ public class Program
         Console.Write("Introduce tu clave: ");
         cadena = Console.ReadLine();
 
-
         int intentos = 0;
         while (cadena != clave && intentos < 2)
         {

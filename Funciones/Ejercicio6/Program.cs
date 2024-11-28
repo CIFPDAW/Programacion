@@ -10,39 +10,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        int alt = 9, lon = 9;
-        int[,] tablero = new int[alt, lon];
-        bool jugando;
-
-        Console.WriteLine("¡Bienvenido a Hundir la Flota!");
-
-        do
-        {
-            // Solicitar coordenadas en formato A1, B3, etc.
-            Console.WriteLine("Introduce las coordenadas para disparar (Ejemplo: A1, B3):");
-            string coordenada = Console.ReadLine()?.ToUpper();
-
-            // Validar y convertir la coordenada
-            if (extraerCoordenada(tablero, coordenada, out int fila, out int columna))
-            {
-                string resultado = disparar(tablero, fila, columna);
-                Console.WriteLine(resultado);
-            }
-            else
-            {
-                Console.WriteLine("Coordenadas fuera de rango o formato incorrecto. Intenta de nuevo.");
-            }
-
-            // Preguntar si el jugador desea continuar
-            Console.Write("¿Quieres seguir jugando? (s/n): ");
-            string respuesta = Console.ReadLine()?.ToLower();
-            if (respuesta != "s")
-            {
-                jugando = false;
-                Console.WriteLine("¡Gracias por jugar!");
-            }
-            else jugando = true;
-        } while (jugando);
+        // int alt = 9, lon = 9;
+        // int[,] tablero = new int[alt, lon];
     }
 
     static string disparar(int[,] tablero, int fila, int columna)
