@@ -2,18 +2,18 @@
 
 public class Program
 {
-    public static void Main(string[] args)
-    {
-        // Ejemplo de uso
-        double[,] ingresos = {
-            { 100.50, 200.75, 300.60 },
-            { 150.00, 250.50, 350.30 },
-            { 120.25, 220.40, 320.10 }
-        };
+    // public static void Main(string[] args)
+    // {
+    //     // Ejemplo de uso
+    //     double[,] ingresos = {
+    //         { 100.50, 200.75, 300.60 },
+    //         { 150.00, 250.50, 350.30 },
+    //         { 120.25, 220.40, 320.10 }
+    //     };
 
-        // Mostrar la matriz
-        Mostrar(ingresos);
-    }
+    //     // Mostrar la matriz
+    //     Mostrar(ingresos);
+    // }
     public static double[] Totales(double[,] ingresos)
     {
         double[] resultado = new double[ingresos.GetLength(1)];
