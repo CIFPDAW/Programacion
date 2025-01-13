@@ -1,7 +1,7 @@
 
 public class Acumulador
 {
-    private int val = 0;
+    private int val;
 
     public void Add(int n){
         val += n;
