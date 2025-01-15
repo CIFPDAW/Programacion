@@ -8,7 +8,7 @@ public class ListaDeEnteros
         int[] aux;
         if (nDatos == datos.Length)
         {
-            aux = new int[datos.Length + 10];
+            aux = new int[datos.Length + 1];
             for (int i = 0; i < datos.Length; i++)
                 aux[i] = datos[i];
             datos = aux;
@@ -37,6 +37,26 @@ public class ListaDeEnteros
             datos[i] = datos[i + 1];
         nDatos--;
         return aux;
+    }
+
+    public int Set(int pos, int valor)
+    {
+        datos[pos] = valor;
+
+        return datos[pos];
+    }
+
+    public override string ToString()
+    {
+        string aux = "";
+        for (int i = 0; i < datos.Length - 2; i++)
+        {
+            aux += $"{datos[i]}, ";
+        }
+
+        aux += $"{datos[nDatos - 1]};
+
+        return $"Lista {{ {aux} }}";
     }
 
 }

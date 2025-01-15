@@ -16,6 +16,10 @@
         l.Add(1);
         l.Add(31);
         l.Delete(3);
+
+        l.Set(4, 100);
+
+        Console.WriteLine(l.ToString());
         for (int i = 0; i < l.Length(); i++)
         {
             System.Console.WriteLine($"datos[{i}]={l.Get(i)}");
