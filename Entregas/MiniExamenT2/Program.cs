@@ -26,17 +26,12 @@ public class Program
         bool validacion = false;
         int i = 0;
 
-        if (pass.Length >= 4 && pass.Length <= 6){
-            do{
-                if (Char.IsDigit(pass[i])){
-                    validacion = true;
-                }
-                else{
-                    i++;
-                }
-            } while (i < pass.Length && !validacion);
+        if (pass.Length >= 4 && pass.Length <= 6)
+        {
+            while (i < pass.Length - 1 && !validacion) i++;
+            if (Char.IsDigit(pass[i])) validacion = true;
         }
-
+        
         return validacion;
     }
 }
