@@ -15,22 +15,28 @@ using System;
 
 public class Program
 {
-    public static void Main(string[] args){
-        Console.WriteLine(comprobarPassword("Contaa"));
+    public static void Main(string[] args)
+    {
+        Console.WriteLine(comprobarPassword("Examp1"));
     }
 
     public static bool comprobarPassword(string pass)
     {
 
-        if (pass.Length >= 4 && pass.Length <= 6)
-        {
-            for (int i = 0; i < pass.Length; i++)
-            {
-                char c = Convert.ToChar(pass[i]);
-                if (Char.IsDigit(c)) return true;
-            }
+        bool validacion = false;
+        int i = 0;
+
+        if (pass.Length >= 4 && pass.Length <= 6){
+            do{
+                if (Char.IsDigit(pass[i])){
+                    validacion = true;
+                }
+                else{
+                    i++;
+                }
+            } while (i < pass.Length && !validacion);
         }
 
-        return false;
+        return validacion;
     }
 }
