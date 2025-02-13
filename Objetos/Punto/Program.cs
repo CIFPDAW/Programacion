@@ -4,8 +4,8 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Puntos p = new Puntos(11, 8);
-        Puntos q = new Puntos();
+        Punto p = new Punto(-11, 8);
+        Punto q = new Punto();
         q.x = 14;
         q.y = 11;
         p.Mostrar('.');

@@ -1,6 +1,6 @@
 using System.Data.Common;
 
-public class Puntos
+public class Punto
 {
     public const int MAX_y = 25;
     public const int MAX_x = 80;
@@ -9,9 +9,9 @@ public class Puntos
     private int _x = 1;
     private int _y = 1;
 
-    public Puntos(){}
+    public Punto(){}
 
-    public Puntos(int x, int y){
+    public Punto(int x, int y){
         this.x = x;
         this.y = y;
     }
