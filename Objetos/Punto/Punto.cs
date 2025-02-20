@@ -41,7 +41,7 @@ public class Punto
         }
     }
 
-    public float distancia(Puntos otro)
+    public float distancia(Punto otro)
     {
         int dx, dy;
         dx = _x - otro._x;
