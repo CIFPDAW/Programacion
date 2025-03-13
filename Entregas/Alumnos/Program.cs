@@ -1,4 +1,7 @@
-﻿public class Program
+﻿using DanielDarias;
+using System;
+
+public class Program
 {
     public static void Main(string[] args)
     {
@@ -8,9 +11,17 @@
 
         // Console.WriteLine(d.Equals(d3));
 
-        Persona p = new Persona(32, 79092361, 'F');
+        // Persona p = new Persona(32, 79092361, 'F');
 
-        Console.WriteLine(p.DNI);
+        // Console.WriteLine(p.DNI);
+
+        Estudiante j = new Estudiante("Juan JR.", 12, 1234567, 'L');
+        j.Calificar("PRO", 9.99f);
+        j.Calificar("LND", 5.5f);
+        j.Calificar("BAE", 6.3f);
+
+        Console.WriteLine(j);
+
 
     }
 }

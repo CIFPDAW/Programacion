@@ -1,8 +1,8 @@
-using DanielDarias.Dni;
+namespace DanielDarias;
+
 public class Persona
 {
     private int _edad;
-    private string? _nombre;
     private DNI _dni;
 
     public int Edad
@@ -12,16 +12,12 @@ public class Persona
             return _edad;
         }
     }
-    public string Nombre
+    public string? Nombre { get; }
+
+    public string DNI
     {
         get
         {
-            return _nombre;
-        }
-    }
-
-    public string DNI {
-        get{
             return _dni.ToString();
         }
     }
@@ -34,7 +30,7 @@ public class Persona
 
     public Persona(int e, long nDni, char IDni, string n) : this(e, nDni, IDni)
     {
-        _nombre = n;
+        Nombre = n;
     }
 
     // public override bool Equals(object? obj)

@@ -1,15 +1,15 @@
-namespace DanielDarias.Dni;
+namespace DanielDarias;
 
 public class DNI
 {
-    private char _idni;
+    private char _ldni;
     private long _ndni;
 
-    public char IDni
+    public char lDni
     {
         get
         {
-            return _idni;
+            return _ldni;
         }
     }
 
@@ -24,13 +24,13 @@ public class DNI
     public DNI()
     {
         _ndni = 0;
-        _idni = ' ';
+        _ldni = ' ';
     }
-    public DNI(long num, char I):this()
+    public DNI(long num, char l):this()
     {
         _ndni = num;
-        if (LetraValida(num) == I)
-            _idni = I;
+        if (LetraValida(num) == l)
+            _ldni = Char.ToUpper(l);
         else
             throw new System.ArgumentException("Letra no válida");
     }
@@ -39,12 +39,12 @@ public class DNI
     {
         if (f == null || GetType() != f.GetType()) return false;
         DNI OtroDNI = (DNI)f;
-        return this.IDni == OtroDNI.IDni && this.nDni == OtroDNI.nDni;
+        return this.lDni == OtroDNI.lDni && this.nDni == OtroDNI.nDni;
     }
 
     public override int GetHashCode()
     {
-        return HashCode.Combine(IDni, nDni);
+        return HashCode.Combine(lDni, nDni);
     }
 
 
@@ -56,7 +56,7 @@ public class DNI
 
     public override string ToString()
     {
-        return $"{nDni}{IDni}";
+        return $"{nDni}{lDni}";
     }
 
 }
