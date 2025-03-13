@@ -1,6 +1,6 @@
 namespace DanielDarias;
 
-public class Estudiante : Persona
+public class Estudiante : Persona, IComparable<Estudiante>
 {
     private List<Calificacion> calificaciones = new List<Calificacion>();
 
@@ -29,7 +29,7 @@ public class Estudiante : Persona
     public int CompareTo(Estudiante? other)
     {
         if (other == null) return 1;
-        return this.Nombre.CompareTo(other.Nombre);
+        return this.NotaMedia().CompareTo(other.NotaMedia());
     }
 
     public Estudiante(int e, long nDni, char IDni) : base(e, nDni, IDni)
