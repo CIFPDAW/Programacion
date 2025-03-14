@@ -16,9 +16,11 @@ public class Program
         // Console.WriteLine(p.DNI);
 
         Estudiante j = new Estudiante("Juan JR.", 12, 1234567, 'L');
-        j.Calificar("PRO", 9.99f);
-        j.Calificar("LND", 5.5f);
-        j.Calificar("BAE", 6.3f);
+        j.Calificar("PRO", 5f);
+
+        Estudiante d = new Estudiante("Juan", 13, 1234567, 'L');
+
+        Console.WriteLine(d.Equals(j));
 
         Console.WriteLine(j);
 

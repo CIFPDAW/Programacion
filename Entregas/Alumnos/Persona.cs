@@ -24,6 +24,9 @@ public class Persona
 
     public Persona(int e, long nDni, char IDni)
     {
+        if(e <= 0){
+            throw new System.ArgumentOutOfRangeException("La edad no puede ser negativa");
+        }
         _edad = e;
         _dni = new DNI(nDni, IDni);
     }
@@ -33,12 +36,12 @@ public class Persona
         Nombre = n;
     }
 
-    // public override bool Equals(object? obj)
-    // {
-    //     if (obj == null || GetType() != obj.GetType()) return false;
-    //     Persona p = (Persona)obj;
-    //     return this.Nombre == p.Nombre && this.Edad == p.Edad && this._dni.Equals(p._dni);
-    // }
+    public override bool Equals(object? obj)
+    {
+        if (obj == null || GetType() != obj.GetType()) return false;
+        Persona p = (Persona)obj;
+        return this._dni.Equals(p._dni);
+    }
 
     public override string ToString()
     {
