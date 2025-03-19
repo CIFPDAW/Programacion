@@ -1,29 +1,25 @@
+using System.Runtime.CompilerServices;
+
 namespace DanielDarias;
 
 public class Estudiante : Persona, IComparable<Estudiante>
 {
     private List<Calificacion> calificaciones = new List<Calificacion>();
 
-    private void OrdenarCalificaciones()
-    {
-        for (int i = 0; i < calificaciones.Count - 1; i++)
-        {
-            for (int j = 0; j < calificaciones.Count - i - 1; j++)
-            {
-                if (calificaciones[j].Nota < calificaciones[j + 1].Nota)
-                {
-                    var temp = calificaciones[j];
-                    calificaciones[j] = calificaciones[j + 1];
-                    calificaciones[j + 1] = temp;
-                }
-            }
-        }
-    }
-
     public void Calificar(string asignatura, float nota)
     {
-        calificaciones.Add(new Calificacion(asignatura, nota));
-        OrdenarCalificaciones();
+        Calificacion c = new Calificacion(asignatura, nota);
+        // While
+        int i = 0;
+
+        while (i < calificaciones.Count && calificaciones[i].Nota > c.Nota)
+        {
+            i++;
+        }
+        if(i < calificaciones.Count)
+            calificaciones.Insert(i, c);
+        else
+            calificaciones.Add(c);
     }
 
     public int CompareTo(Estudiante? other)
