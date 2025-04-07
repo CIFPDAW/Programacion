@@ -1,4 +1,4 @@
-﻿﻿using System.IO;
+﻿using System.IO;
 public class Program {
 
     private const string NOMBRE_FICH="numeros.txt";
